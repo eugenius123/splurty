@@ -73,6 +73,9 @@ h1 {
 h2 {
   font-family: 'Overpass', sans-serif;
 }
+.modal{
+  font-family: 'Overpass', sans-serif;
+}
 
 .next-quote {
   color: #f84342;
@@ -80,13 +83,25 @@ h2 {
   font-size: 20px;
 }
 
-.footer-blurb {
-  font-family: 'Overpass', sans-serif;
-  text-align: right;
-  font-style: italic;
-  font-size: 10px
+
+@media (max-width: 750px){
+  .footer-blurb {
+    font-family: 'Overpass', sans-serif;
+    text-align: left;
+    font-style: italic;
+    font-size: 10px
+  }
 }
 
 .logo:hover {
   text-decoration: none;
+}
+
+h2 span {
+  color: #dddddd;
+  font-family: 'nobileregular', sans-serif;
+}
+
+::selection {
+  background-color: #f84342;
 }
